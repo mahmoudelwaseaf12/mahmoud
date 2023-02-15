@@ -10,9 +10,9 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "6120841602:AAFUi8h3ZjWRLUuUjpcDmjwYlWq3
 
 FORCE_SUB = os.environ.get("FORCE_SUB", "WebXBots") 
 
-DB_NAME = os.environ.get("DB_NAME","mongodb+srv://mhfghffsddfs:qanty9cqkXQoyril@cluster0.zjbn1t9.mongodb.net/?retryWrites=true&w=majority")     
+DB_NAME = os.environ.get("DB_NAME","cluster0")     
 
-DB_URL = os.environ.get("DB_URL","cluster0")
+DB_URL = os.environ.get("DB_URL","mongodb+srv://mhfghffsddfs:qanty9cqkXQoyril@cluster0.zjbn1t9.mongodb.net/?retryWrites=true&w=majority")
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
